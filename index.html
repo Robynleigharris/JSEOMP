@@ -14,139 +14,159 @@
         <div class="logo">ROBYNLEIGHARRIS</div>
         <div class="menu">
           <ul class="hover">
-            <li><a href="#">about</a></li>
-            <li><a href="#">portfolio</a></li>
-            <li><a href="#">tesimonals</a></li>
-            <li><a href="#">contact</a></li>
+            <li><a href="#about-link">about</a></li>
+            <li><a href="#portfolio-link">portfolio</a></li>
+            <li><a href="#testi-link">tesimonals</a></li>
+            <li><a href="#contact-link">contact</a></li>
           </ul>
         </div>
       </div>
       <div class="header">
-        <img src="images/robyn3.jpg" class="profile-img" />
+        <h1>Hi, Im <br /><span> Robyn-leigh harris</span></h1>
+        <h2>Im a web developer</h2>
+        <a href="#about-link" class="button">About me</a>
       </div>
     </div>
     <!--about-->
-    <div class="main-content">
+    <a id="about-link"></a>
+    <div class="content">
       <div class="about_first">
-        <h3></h3>
+        <h3>ABOUT ME</h3>
         <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore vitae
-          architecto perspiciatis autem a ipsa, ea qui, illo explicabo quas,
-          molestias dolores doloremque temporibus error reprehenderit officiis
-          debitis totam repellat!
+          I am a artistic and innovative individual. I love creating new things
+          and coming up with new ways of doing things. I’d refer to myself as a
+          perfectionist as I pay extreme attention to detail. I would be happy
+          to purse a career as a full stack developer.
         </p>
+        <p></p>
+        <p></p>
       </div>
 
       <div class="about_first">
-        <h3></h3>
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. A molestiae
-          dignissimos repellendus odit porro quas iusto ducimus harum, qui quod
-          architecto delectus vitae minus ad officiis sequi similique quisquam
-          magnam.
-        </p>
+        <img src="images/closeface2.jpg" class="profile-img" />
       </div>
     </div>
     <!--chart-->
-    <div class="chart_img">
-      <h2 class="titulo">Progress Bars</h2>
-      <div class="barras">
-        <div class="barra">
-          <div class="barra-nivel" data-nivel="80%"></div>
-        </div>
-        <div class="barra">
-          <div class="barra-nivel" data-nivel="57%"></div>
-        </div>
-        <div class="barra">
-          <div class="barra-nivel" data-nivel="94%"></div>
-        </div>
+    <div class="graph section">
+      <div class="graph-cont">
+        <h1>CODING SKILLS</h1>
+        <div class="bar bar1">python- 80%</div>
+        <div class="bar bar2">html - 85%</div>
+        <div class="bar bar3">css - 85%</div>
+        <div class="bar bar4">java script - 60%</div>
       </div>
     </div>
 
     <!--cards-->
-    <h1 class="the_font">portfolio</h1>
+    <a id="portfolio-link"></a>
+    <h1 class="the_font">PORTFOLIO</h1>
     <div class="card-container">
       <div class="card">
         <div class="card-content">
-          <img src="images/pink-girl.jpeg" alt="" class="card-image" />
+          <a
+            href="https://beaconhillbreakthroughkc.herokuapp.com/"
+            target="_blank"
+          >
+            <img src="images/beac-croped.png" alt="" class="card-image"
+          /></a>
         </div>
       </div>
 
       <div class="card">
         <div class="card-content">
-          <img src="#" alt="" class="card-image" />
+          <a href="https://phaedra.netlify.app" target="_blank">
+            <img src="images/emp-croped2.png" alt="" class="card-image"
+          /></a>
         </div>
       </div>
 
       <div class="card">
         <div class="card-content">
-          <img src="#" alt="" class="card-image" />
+          <a href="https://www.blueprintmedical.co.za/" target="_blank">
+            <img src="images/blumed-croped.png" alt="" class="card-image"
+          /></a>
         </div>
       </div>
 
       <div class="card">
         <div class="card-content">
-          <img src="#" alt="" class="card-image" />
+          <a
+            href="https://github.com/Robynleigharris/python-lotto"
+            target="_blank"
+          >
+            <img src="images/lotto.png" alt="" class="card-image"
+          /></a>
         </div>
       </div>
 
       <div class="card">
         <div class="card-content">
-          <img src="#" alt="" class="card-image" />
+          <a href="https://sleepy-beaver-7074da.netlify.app" target="_blank">
+            <img src="images/calcnewnew.png" alt="" class="card-image"
+          /></a>
         </div>
       </div>
 
       <div class="card">
         <div class="card-content">
-          <img src="#" alt="" class="card-image" />
+          <img src="images/temp.png" alt="" class="card-image" />
         </div>
       </div>
     </div>
     <!--tesimonials-->
-    <section class="quotes">
-      <div class="bubble">
-        <blockquote>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur
-          reiciendis beatae porro laboriosam sequi fugit repellendus at,
-          corporis, obcaecati tempora numquam sed iure quam ad facilis
-          exercitationem, eveniet quod magni!
-        </blockquote>
-        <div></div>
-        <cite>lorem</cite>
+    <a id="testi-link"></a>
+    <h1 class="the_font">TESTIMONIALS</h1>
+    <div class="slider">
+      <input
+        type="radio"
+        name="slider"
+        title="slide1"
+        checked="checked"
+        class="slider__nav"
+      />
+      <input type="radio" name="slider" title="slide2" class="slider__nav" />
+      <input type="radio" name="slider" title="slide3" class="slider__nav" />
+      <input type="radio" name="slider" title="slide4" class="slider__nav" />
+      <div class="slider__inner">
+        <div class="slider__contents">
+          <i class="slider__image fa fa-codepen"></i>
+          <p class="slider__txt">
+            Robyn is a determined and talented person, she is always willing to
+            help her fellow peers with there work and will always finish what
+            she start without giving up. Robyn is up for any challenge and
+            learning new work, she respects everyone equally. I am confident
+            that Robyn will be a great help to any company. -Alex Sassman
+          </p>
+        </div>
+        <div class="slider__contents">
+          <i class="slider__image fa fa-newspaper-o"></i>
+          <p class="slider__txt">
+            Robyn is a devoted to completing her work to the best of her ability
+            as well as enthusiastic towards her work and she gets along nicely
+            in a team - Cameron sassman
+          </p>
+        </div>
+        <div class="slider__contents">
+          <i class="slider__image fa fa-television"></i>
+          <p class="slider__txt">
+            Robyn is a hard working person, she works with passion. She enjoys
+            working with others and tries her best to get the result she wants.
+            - Ethan Lesch
+          </p>
+        </div>
+        <div class="slider__contents">
+          <i class="slider__image fa fa-diamond"></i>
+          <p class="slider__txt">
+            Robyn-Leigh has a pleasant personality and ability to work in a team
+            environment. I do not hesitate to recommend her. Godwin -Head of
+            Curriculum and Learning
+          </p>
+        </div>
       </div>
-      <div class="bubble">
-        <blockquote>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur
-          reiciendis beatae porro laboriosam sequi fugit repellendus at,
-          corporis, obcaecati tempora numquam sed iure quam ad facilis
-          exercitationem, eveniet quod magni!
-        </blockquote>
-        <div></div>
-        <cite>lorem</cite>
-      </div>
-      <div class="bubble">
-        <blockquote>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur
-          reiciendis beatae porro laboriosam sequi fugit repellendus at,
-          corporis, obcaecati tempora numquam sed iure quam ad facilis
-          exercitationem, eveniet quod magni!
-        </blockquote>
-        <div></div>
-        <cite>lorem</cite>
-      </div>
-      <div class="bubble">
-        <blockquote>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur
-          reiciendis beatae porro laboriosam sequi fugit repellendus at,
-          corporis, obcaecati tempora numquam sed iure quam ad facilis
-          exercitationem, eveniet quod magni!.
-        </blockquote>
-        <div></div>
-        <cite>lorem</cite>
-      </div>
-    </section>
+    </div>
 
     <!--contact-->
+    <a id="contact-link"></a>
     <div class="contact">
       <div class="contact-items">
         <h1>CONTACT ME</h1>
