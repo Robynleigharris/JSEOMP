@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="mystyle.css" />
+
+    <script
+      src="https://kit.fontawesome.com/69e2fdf94d.js"
+      crossorigin="anonymous"
+    ></script>
+    <title></title>
+  </head>
+  <body>
+    <!--nav-->
+    <div class="wrapper">
+      <div class="nav">
+        <div class="logo">ROBYNLEIGHARRIS</div>
+        <div class="menu">
+          <ul>
+            <li><a href="#about-link">About</a></li>
+            <li><a href="#portfolio-link">Portfolio</a></li>
+            <li><a href="#testi-link">Tesimonals</a></li>
+            <li><a href="#contact-link">Contact</a></li>
+          </ul>
+        </div>
+      </div>
+      <a id="backhome-link"></a>
+      <div class="header">
+        <h1>Hi, Im <br /><span> Robyn-leigh Harris</span></h1>
+        <h2>I am an aspiring Web Developer</h2>
+        <a href="#about-link" class="button">About me</a>
+      </div>
+    </div>
+
+    <!--about-->
+    <a id="about-link"></a>
+    <div class="content">
+      <div class="about_first">
+        <h3>ABOUT ME</h3>
+        <p>
+          I am a artistic and innovative individual. I love creating new things
+          and coming up with new ways of doing things. I’d refer to myself as a
+          perfectionist as I pay extreme attention to detail. I would be happy
+          to purse a career as a full stack developer.
+        </p>
+      </div>
+
+      <div class="about_first">
+        <img src="images/closeface2.jpg" class="profile-img" />
+      </div>
+    </div>
+    <!--chart-->
+    <div class="section-bar">
+      <div class="graph section">
+        <div class="graph-cont">
+          <h1>CODING SKILLS</h1>
+          <div class="bar bar1">Python- 80%</div>
+          <div class="bar bar2">html - 85%</div>
+          <div class="bar bar3">css - 85%</div>
+          <div class="bar bar4">JavaScript - 60%</div>
+          <div class="bar bar5">Django - 75%</div>
+          <div class="bar bar6">Flask- 75%</div>
+          <div class="bar bar7">Mysql- 70%</div>
+        </div>
+      </div>
+    </div>
+    <!--tesimonials-->
+    <div class="section-test">
+      <div class="carousel-container">
+        <!-- carousel -->
+        <div id="carousel">
+          <!-- container -->
+          <div id="carousel-container"></div>
+          <!-- bullets -->
+          <div id="carousel-bullets"></div>
+  
+          <!-- buttons -->
+          <button id="carousel-left" onclick="changeSlide(-1)">
+            <i class="fas fa-angle-left"></i>
+          </button>
+          <button id="carousel-right" onclick="changeSlide(1)">
+            <i class="fas fa-angle-right"></i>
+          </button>
+  
+          <ul id="user-thing"></ul>
+          <script src="javascr.js"></script>
+        </div>
+      </div>
+    </div>
+
+    <!--cards-->
+    <div class="section-card">
+    <a id="portfolio-link"></a>
+    <h1 class="the_font">PORTFOLIO</h1>
+    <div class="card-container">
+      <div class="card">
+        <div class="card-content">
+          <a
+            href="https://beaconhillbreakthroughkc.herokuapp.com/"
+            target="_blank"
+          >
+            <img src="images/beac-croped.png" alt="" class="card-image"
+          /></a>
+          <a class="port-button"
+            ><img src="images/eye.png" alt="" class="port-icons" />view live</a
+          >
+          <a class="port-button"
+            ><img src="images/github(1).png" alt="" class="port-icons" />view
+            code</a
+          >
+          <p>Front-end website</p>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem
+            dolore iste corporis obcaecati voluptas repudiandae mollitia labore
+            quam, adipisci tempore eaque eos aspernatur cumque odit nostrum
+            repellendus assumenda consequatur voluptatem.
+          </p>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="card-content">
+          <a href="https://phaedra.netlify.app" target="_blank">
+            <img src="images/emp-croped2.png" alt="" class="card-image"
+          /></a>
+          <a class="port-button"
+            ><img src="images/eye.png" alt="" class="port-icons" />view live</a
+          >
+          <a href="#"> <a class="port-button"
+            ><img src="images/github(1).png" alt="" class="port-icons" />view
+            code</a
+          ></a>
+          <p>Front-end website</p>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem
+            dolore iste corporis obcaecati voluptas repudiandae mollitia labore
+            quam, adipisci tempore eaque eos aspernatur cumque odit nostrum
+            repellendus assumenda consequatur voluptatem.
+          </p>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="card-content">
+          <a href="https://www.blueprintmedical.co.za/" target="_blank">
+            <img src="images/blumed-croped.png" alt="" class="card-image"
+          /></a>
+          <a class="port-button"
+            ><img src="images/eye.png" alt="" class="port-icons" />view live</a
+          >
+          <a class="port-button"
+            ><img src="images/github(1).png" alt="" class="port-icons" />view
+            code</a
+          >
+          <p>Front-end website</p>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem
+            dolore iste corporis obcaecati voluptas repudiandae mollitia labore
+            quam, adipisci tempore eaque eos aspernatur cumque odit nostrum
+            repellendus assumenda consequatur voluptatem.
+          </p>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="card-content">
+          <a
+            href="https://github.com/Robynleigharris/python-lotto"
+            target="_blank"
+          >
+            <img src="images/lotto.png" alt="" class="card-image"
+          /></a>
+          <a class="port-button"
+            ><img src="images/eye.png" alt="" class="port-icons" />view live</a
+          >
+          <a class="port-button"
+            ><img src="images/github(1).png" alt="" class="port-icons" />view
+            code</a
+          >
+          <p>Lotto game in python</p>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem
+            dolore iste corporis obcaecati voluptas repudiandae mollitia labore
+            quam, adipisci tempore eaque eos aspernatur cumque odit nostrum
+            repellendus assumenda consequatur voluptatem.
+          </p>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="card-content">
+          <a href="https://my-js-calc.netlify.app" target="_blank">
+            <img src="images/calcnewnew.png" alt="" class="card-image"
+          /></a>
+          <a class="port-button"
+            ><img src="images/eye.png" alt="" class="port-icons" />view live</a
+          >
+          <a class="port-button"
+            ><img src="images/github(1).png" alt="" class="port-icons" />view
+            code</a
+          >
+          <p>Javascript calculator</p>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem
+            dolore iste corporis obcaecati voluptas repudiandae mollitia labore
+            quam, adipisci tempore eaque eos aspernatur cumque odit nostrum
+            repellendus assumenda consequatur voluptatem.
+          </p>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="card-content">
+          <img src="images/temp.png" alt="" class="card-image" />
+        </div>
+        <a class="port-button"
+          ><img src="images/eye.png" alt="" class="port-icons" />view live</a
+        >
+        <a class="port-button"
+          ><img src="images/github(1).png" alt="" class="port-icons" />view
+          code</a
+        >
+        <p>Temperature converter in python</p>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem dolore
+          iste corporis obcaecati voluptas repudiandae mollitia labore quam,
+          adipisci tempore eaque eos aspernatur cumque odit nostrum repellendus
+          assumenda consequatur voluptatem.
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
+    
+    <!--contact-->
+    <a id="contact-link"></a>
+    <div class="contact">
+      <div class="contact-items">
+        <h1>CONTACT ME</h1>
+        <form
+          action="mailto:robyn.jabari@gmail.com"
+          method="POST"
+          data-netlify="true"
+        >
+          <input type="text" placeholder="Name" />
+          <input type="text" placeholder="Email" />
+          <textarea cols="20" rows="20" placeholder="message us"> </textarea>
+          <a href="#" class="hover">submit</a>
+        </form>
+      </div>
+    </div>
+
+    <!--footer-->
+    <div class="footer">
+      <div class="footer-content">
+        <div class="footer-section-info">
+          <h1 class="logo-text">
+            <span
+              >ROBYNLEIGHARRIS<a href="mailto:robyn.jabari@gmail.com"><img
+                src="images/gmail.png"
+                alt="facebook"
+                class="icons" /></a>
+              <a href="https://github.com/Robynleigharris"><img src="images/github.png" alt="github" class="icons" /></a>
+             <!--<img src="images/linkedin.png" alt="linkedin" class="icons"
+            /></span>-->
+          </h1>
+          <div class="footer-contact">
+            <span><p>076-991-4714</p></span>
+            <span><p>robyn.jabari@gmail.com</p></span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
