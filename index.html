@@ -5,6 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="mystyle.css" />
 
+
+    <script
+      src="https://kit.fontawesome.com/69e2fdf94d.js"
+      crossorigin="anonymous"
+    ></script>
     <title></title>
   </head>
   <body>
@@ -13,20 +18,22 @@
       <div class="nav">
         <div class="logo">ROBYNLEIGHARRIS</div>
         <div class="menu">
-          <ul class="hover">
-            <li><a href="#about-link">about</a></li>
-            <li><a href="#portfolio-link">portfolio</a></li>
-            <li><a href="#testi-link">tesimonals</a></li>
-            <li><a href="#contact-link">contact</a></li>
+          <ul>
+            <li><a href="#about-link">About</a></li>
+            <li><a href="#portfolio-link">Portfolio</a></li>
+            <li><a href="#testi-link">Tesimonals</a></li>
+            <li><a href="#contact-link">Contact</a></li>
           </ul>
         </div>
       </div>
+      <a id="backhome-link"></a>
       <div class="header">
-        <h1>Hi, Im <br /><span> Robyn-leigh harris</span></h1>
-        <h2>Im a web developer</h2>
+        <h1>Hi, Im <br /><span> Robyn-leigh Harris</span></h1>
+        <h2>I am an aspiring Web Developer</h2>
         <a href="#about-link" class="button">About me</a>
       </div>
     </div>
+
     <!--about-->
     <a id="about-link"></a>
     <div class="content">
@@ -38,26 +45,95 @@
           perfectionist as I pay extreme attention to detail. I would be happy
           to purse a career as a full stack developer.
         </p>
-        <p></p>
-        <p></p>
+        <img src="images/briefcase.png" alt="case" class="about-icons" />
+        <h3>Work experience</h3>
+        <h4>Rlabs</h4>
+        <p>15 August 2019 - 30 june 2020</p>
+        <p>I worked as an intern, within a team </p>
+        <p>Role:Front end development.Building custom websites using HTML5,CSS3 with Django as a framework for yuthon</p>
+        <img src="images/book.png" alt="hat" class="about-icons" />
+        <h3>Education</h3>
+        <h4>Life Choices Academy</h4>
+        <p>covering HTML, CSS, Python, JavaScript, Flask and mysql</p> 
+        <h4>Free code camp-2019</h4>
+        <p>Responsive web design, JavaScript,Algorithms and Data structures</p>
+        <h4>Data science-2019</h4>
+        <p>Python data science toolbox</p>
+
       </div>
 
       <div class="about_first">
         <img src="images/closeface2.jpg" class="profile-img" />
       </div>
     </div>
+
     <!--chart-->
-    <div class="graph section">
-      <div class="graph-cont">
-        <h1>CODING SKILLS</h1>
-        <div class="bar bar1">python- 80%</div>
-        <div class="bar bar2">html - 85%</div>
-        <div class="bar bar3">css - 85%</div>
-        <div class="bar bar4">java script - 60%</div>
+    <h1 class="bar-head">SKILLS</h1>
+    <p>Python</p>
+    <div class="containerskills">
+      <div class="skills python"></div>
+    </div>
+
+    <p>Django</p>
+    <div class="containerskills">
+      <div class="skills django"></div>
+    </div>
+
+    <p>JavaScript</p>
+    <div class="containerskills">
+      <div class="skills js"></div>
+    </div>
+
+    <p>Mysql</p>
+    <div class="containerskills">
+      <div class="skills mysql"></div>
+    </div>
+    <p>Flask</p>
+    <div class="containerskills">
+      <div class="skills flask"></div>
+    </div>
+    <p>CSS</p>
+    <div class="containerskills">
+      <div class="skills css"></div>
+    </div>
+    <p>HTML5</p>
+    <div class="containerskills">
+      <div class="skills html"></div>
+    </div>
+    
+
+
+
+    <!--tesimonials-->
+    <div class="section-test">
+      <div class="card-container">
+        <div class="card">
+          <div class="card-content">
+      <div class="carousel-container">
+        <!-- carousel -->
+        <div id="carousel">
+          <!-- container -->
+          <div id="carousel-container"></div>
+          <!-- bullets -->
+          <div id="carousel-bullets"></div>
+  
+          <!-- buttons -->
+          <button id="carousel-left" onclick="changeSlide(-1)">
+            <i class="fas fa-angle-left"></i>
+          </button>
+          <button id="carousel-right" onclick="changeSlide(1)">
+            <i class="fas fa-angle-right"></i>
+          </button>
+  
+          <ul id="user-thing"></ul>
+          <script src="javascr.js"></script>
+        </div>
+      </div>
       </div>
     </div>
 
     <!--cards-->
+    <div class="section-card">
     <a id="portfolio-link"></a>
     <h1 class="the_font">PORTFOLIO</h1>
     <div class="card-container">
@@ -69,6 +145,17 @@
           >
             <img src="images/beac-croped.png" alt="" class="card-image"
           /></a>
+          <a class="port-button"
+            ><img src="images/eye.png" alt="" class="port-icons" />view live</a
+          >
+          <a class="port-button"
+            ><img src="images/github(1).png" alt="" class="port-icons" />view
+            code</a
+          >
+          <p>Beconhill church website</p>
+          <p>
+            This website is a landing page for a church. It was one of my very first websites I have ever built. It was also my very first time working for a client.
+          </p>
         </div>
       </div>
 
@@ -77,6 +164,17 @@
           <a href="https://phaedra.netlify.app" target="_blank">
             <img src="images/emp-croped2.png" alt="" class="card-image"
           /></a>
+          <a class="port-button"
+            ><img src="images/eye.png" alt="" class="port-icons" />view live</a
+          >
+          <a href="#"> <a class="port-button"
+            ><img src="images/github(1).png" alt="" class="port-icons" />view
+            code</a
+          ></a>
+          <p>Phedra website</p>
+          <p>
+            This would be my first attempt at coding a webpage from scratch, as there was no client invloved, I was able to explore with different designs and really put alot of myself into the webpage.
+          </p>
         </div>
       </div>
 
@@ -85,6 +183,17 @@
           <a href="https://www.blueprintmedical.co.za/" target="_blank">
             <img src="images/blumed-croped.png" alt="" class="card-image"
           /></a>
+          <a class="port-button"
+            ><img src="images/eye.png" alt="" class="port-icons" />view live</a
+          >
+          <a class="port-button"
+            ><img src="images/github(1).png" alt="" class="port-icons" />view
+            code</a
+          >
+          <p>Blue print medical  website</p>
+          <p>
+            This is a business landing page for a client and the colors and syle was preference of them.
+          </p>
         </div>
       </div>
 
@@ -96,14 +205,36 @@
           >
             <img src="images/lotto.png" alt="" class="card-image"
           /></a>
+          <a class="port-button"
+            ><img src="images/eye.png" alt="" class="port-icons" />view live</a
+          >
+          <a class="port-button"
+            ><img src="images/github(1).png" alt="" class="port-icons" />view
+            code</a
+          >
+          <p>Lotto game in python</p>
+          <p>
+            Building this game was such a thrill. It allows you the guess lotto numbers.
+          </p>
         </div>
       </div>
 
       <div class="card">
         <div class="card-content">
-          <a href="https://sleepy-beaver-7074da.netlify.app" target="_blank">
+          <a href="https://my-js-calc.netlify.app" target="_blank">
             <img src="images/calcnewnew.png" alt="" class="card-image"
           /></a>
+          <a class="port-button"
+            ><img src="images/eye.png" alt="" class="port-icons" />view live</a
+          >
+          <a class="port-button"
+            ><img src="images/github(1).png" alt="" class="port-icons" />view
+            code</a
+          >
+          <p>Javascript calculator</p>
+          <p>
+            This is a simple and plain calculator made with css, html and javascript
+          </p>
         </div>
       </div>
 
@@ -111,60 +242,22 @@
         <div class="card-content">
           <img src="images/temp.png" alt="" class="card-image" />
         </div>
+        <a class="port-button"
+          ><img src="images/eye.png" alt="" class="port-icons" />view live</a
+        >
+        <a class="port-button"
+          ><img src="images/github(1).png" alt="" class="port-icons" />view
+          code</a
+        >
+        <p>Temperature converter in python</p>
+        <p>
+          This would be my first python project . The Gui is build with Tkinter.
+        </p>
       </div>
     </div>
-    <!--tesimonials-->
-    <a id="testi-link"></a>
-    <h1 class="the_font">TESTIMONIALS</h1>
-    <div class="slider">
-      <input
-        type="radio"
-        name="slider"
-        title="slide1"
-        checked="checked"
-        class="slider__nav"
-      />
-      <input type="radio" name="slider" title="slide2" class="slider__nav" />
-      <input type="radio" name="slider" title="slide3" class="slider__nav" />
-      <input type="radio" name="slider" title="slide4" class="slider__nav" />
-      <div class="slider__inner">
-        <div class="slider__contents">
-          <i class="slider__image fa fa-codepen"></i>
-          <p class="slider__txt">
-            Robyn is a determined and talented person, she is always willing to
-            help her fellow peers with there work and will always finish what
-            she start without giving up. Robyn is up for any challenge and
-            learning new work, she respects everyone equally. I am confident
-            that Robyn will be a great help to any company. -Alex Sassman
-          </p>
-        </div>
-        <div class="slider__contents">
-          <i class="slider__image fa fa-newspaper-o"></i>
-          <p class="slider__txt">
-            Robyn is a devoted to completing her work to the best of her ability
-            as well as enthusiastic towards her work and she gets along nicely
-            in a team - Cameron sassman
-          </p>
-        </div>
-        <div class="slider__contents">
-          <i class="slider__image fa fa-television"></i>
-          <p class="slider__txt">
-            Robyn is a hard working person, she works with passion. She enjoys
-            working with others and tries her best to get the result she wants.
-            - Ethan Lesch
-          </p>
-        </div>
-        <div class="slider__contents">
-          <i class="slider__image fa fa-diamond"></i>
-          <p class="slider__txt">
-            Robyn-Leigh has a pleasant personality and ability to work in a team
-            environment. I do not hesitate to recommend her. Godwin -Head of
-            Curriculum and Learning
-          </p>
-        </div>
-      </div>
-    </div>
-
+  </div>
+</div>
+    
     <!--contact-->
     <a id="contact-link"></a>
     <div class="contact">
@@ -189,13 +282,13 @@
         <div class="footer-section-info">
           <h1 class="logo-text">
             <span
-              >ROBYNLEIGHARRIS<img
-                src="images/facebook.png"
+              >ROBYNLEIGHARRIS<a href="mailto:robyn.jabari@gmail.com"><img
+                src="images/gmail.png"
                 alt="facebook"
-                class="icons" />
-              <img src="images/github.png" alt="github" class="icons" />
-              <img src="images/linkedin.png" alt="linkedin" class="icons"
-            /></span>
+                class="icons" /></a>
+              <a href="https://github.com/Robynleigharris"><img src="images/github.png" alt="github" class="icons" /></a>
+             <!--<img src="images/linkedin.png" alt="linkedin" class="icons"
+            /></span>-->
           </h1>
           <div class="footer-contact">
             <span><p>076-991-4714</p></span>
