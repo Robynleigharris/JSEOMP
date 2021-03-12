@@ -50,6 +50,7 @@ body {
 }
 
 .logo {
+  text-decoration: none;
   float: left;
   color: white;
   font-size: 16px;
@@ -57,7 +58,6 @@ body {
   line-height: 80px;
   letter-spacing: 2px;
   cursor: pointer;
-  text-decoration: none;
 }
 
 .menu {
@@ -77,8 +77,12 @@ body {
 .menu ul li a {
   text-decoration: none;
   color: whitesmoke;
-  font-weight: lighter;
   padding: 0 10px;
+  transition: color 0.3s ease-in-out;
+}
+
+.menus a:hover {
+  color: #ffb78f;
 }
 
 .header {
@@ -103,16 +107,9 @@ body {
   font-size: 1.3em;
   font-weight: 680;
   color: #fff;
-  text-shadow:
-    0 0 5px #ffb78f,
-    0 0 10px #ffb78f,
-    0 0 10px #ffb78f,
-    0 0 20px #ffb78f,
-    0 0 40px #ffb78f,
-    0 0 80px #ffb78f,
-    0 0 90px #ffb78f,
-    0 0 100px #ffb78f,
-    0 0 150px #ffb78f;
+  text-shadow: 0 0 5px #ffb78f, 0 0 10px #ffb78f, 0 0 10px #ffb78f,
+    0 0 20px #ffb78f, 0 0 40px #ffb78f, 0 0 80px #ffb78f, 0 0 90px #ffb78f,
+    0 0 100px #ffb78f, 0 0 150px #ffb78f;
 }
 
 .header h2 {
@@ -161,7 +158,6 @@ body {
   text-align: left;
   background-color: whitesmoke;
   border-radius: 12px;
-
 }
 
 .profile-img {
@@ -179,12 +175,12 @@ body {
 }
 
 /*----bar-graph----*/
-.bar-head{
+.bar-head {
   text-align: center;
   color: black;
 }
 .containerskills {
-  width: 50%; 
+  width: 50%;
   background-color: transparent;
   margin: 0 auto;
   border-radius: 30px;
@@ -193,12 +189,13 @@ body {
 }
 
 .skills {
-  text-align: center; 
+  text-align: center;
   padding-top: 10px;
-  padding-bottom: 10px; 
+  padding-bottom: 10px;
   color: rgb(0, 0, 0);
 }
 
+.containerskills,
 p {
   text-align: center;
 }
@@ -207,73 +204,63 @@ p {
   width: 90%;
   background-color: #bc7464;
   border-radius: 50px;
-background: #bc7464;
-box-shadow:  12px 12px 24px #a06355,
-             -12px -12px 24px #d88573;
+  background: #bc7464;
+  box-shadow: 12px 12px 24px #a06355, -12px -12px 24px #d88573;
 }
 .css {
   width: 90%;
   background-color: #bc7464;
   border-radius: 50px;
-background: #bc7464;
-box-shadow:  12px 12px 24px #a06355,
-             -12px -12px 24px #d88573;
+  background: #bc7464;
+  box-shadow: 12px 12px 24px #a06355, -12px -12px 24px #d88573;
 }
 .js {
   width: 70%;
   background-color: #bc7464;
   border-radius: 50px;
-background: #bc7464;
-box-shadow:  12px 12px 24px #a06355,
-             -12px -12px 24px #d88573;
+  background: #bc7464;
+  box-shadow: 12px 12px 24px #a06355, -12px -12px 24px #d88573;
 }
 .python {
   width: 87%;
   background-color: #bc7464;
   border-radius: 50px;
-background: #bc7464;
-box-shadow:  12px 12px 24px #a06355,
-             -12px -12px 24px #d88573;
+  background: #bc7464;
+  box-shadow: 12px 12px 24px #a06355, -12px -12px 24px #d88573;
 }
 .django {
   width: 70%;
   background-color: #bc7464;
   border-radius: 50px;
-background: #bc7464;
-box-shadow:  12px 12px 24px #a06355,
-             -12px -12px 24px #d88573;
+  background: #bc7464;
+  box-shadow: 12px 12px 24px #a06355, -12px -12px 24px #d88573;
 }
 .mysql {
   width: 80%;
   background-color: #bc7464;
   border-radius: 50px;
   border-radius: 50px;
-background: #bc7464;
-box-shadow:  12px 12px 24px #a06355,
-             -12px -12px 24px #d88573;
+  background: #bc7464;
+  box-shadow: 12px 12px 24px #a06355, -12px -12px 24px #d88573;
 }
 
-.flask{
+.flask {
   width: 80%;
   background-color: #bc7464;
   border-radius: 50px;
   border-radius: 50px;
-background: #bc7464;
-box-shadow:  12px 12px 24px #a06355,
-             -12px -12px 24px #d88573;
-
+  background: #bc7464;
+  box-shadow: 12px 12px 24px #a06355, -12px -12px 24px #d88573;
 }
 
-
 /*---cards----*/
-.section-card{
+.section-card {
   color: black;
   background-image: url("images/#");
   background-size: cover;
   background-repeat: no-repeat;
   padding: 100px 0;
   z-index: 1;
-
 }
 .card-container {
   display: flex;
@@ -282,7 +269,6 @@ box-shadow:  12px 12px 24px #a06355,
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  
 }
 
 .card-image {
@@ -328,7 +314,7 @@ box-shadow:  12px 12px 24px #a06355,
 /*---testimonils--- */
 #carousel {
   display: grid;
-  grid-template-columns: 30px 45vw  30px;
+  grid-template-columns: 30px 45vw 30px;
   grid-template-rows: 15fr 1fr;
   grid-template-areas:
     "leftCaret content rightCaret"
@@ -420,7 +406,7 @@ box-shadow:  12px 12px 24px #a06355,
 
 .section-test {
   color: black;
-  background-image:url("#");
+  background-image: url("#");
   background-size: cover;
   background-repeat: no-repeat;
   padding: 100px 0;
@@ -450,7 +436,7 @@ box-shadow:  12px 12px 24px #a06355,
   background-size: cover;
   background-repeat: no-repeat;
   padding: 80px 0;
-  z-index: 1;CONTACT
+  z-index: 1;
 }
 
 .contact-items:before {
@@ -490,6 +476,7 @@ box-shadow:  12px 12px 24px #a06355,
   color: whitesmoke;
   height: 200px;
   position: relative;
+  margin-bottom: -20%;
 }
 
 .footer .footer-content {
@@ -516,6 +503,3 @@ box-shadow:  12px 12px 24px #a06355,
   margin: 0;
   padding: 0;
 }
-
-
-
