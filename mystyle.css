@@ -169,9 +169,13 @@ body {
 
 .about-icons {
   max-width: 10%;
-  height: auto;
+  /*---height: auto;
   padding-right: 20px;
-  float: left;
+  float: left;----*/
+
+  .info {
+    text-align: left;
+  }
 }
 
 /*----bar-graph----*/
